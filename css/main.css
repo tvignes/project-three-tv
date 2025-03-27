@@ -1,1 +1,29 @@
 /* Place CSS styles here */
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#outer-container {
+	width: inherit;
+	height: inherit;
+}
+
+.container {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	display: flex;
+}
+
+#first {
+	background: #276cd6;
+}
+
+#second {
+	background: #555;
+	-webkit-clip-path: circle(0% at 0 0);
+	clip-path: circle(0% at 0 0);
+}
