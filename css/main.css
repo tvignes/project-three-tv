@@ -23,7 +23,6 @@ body {
 }
 
 #second {
-	background: #555;
-	-webkit-clip-path: circle(0% at 0 0);
+	image
 	clip-path: circle(0% at 0 0);
 }
