@@ -19,10 +19,9 @@ body {
 }
 
 #first {
-	background: #276cd6;
 }
 
 #second {
-	image
 	clip-path: circle(0% at 0 0);
+	transition: clip-path 0.5s ease-in-out;
 }
